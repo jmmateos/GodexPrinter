@@ -44,6 +44,13 @@ var printer = cordova.plugins.GodexPrinter;
 cordova plugin add https://github.com/jmmateos/godexprinter.git
 ```
 
+###Phonegap build
+
+```
+<gap:plugin name="cordova-plugin-godex-printer" source="npm" />
+```
+
+
 ##EZPL - GoDEX Programming Language
 For more information about EZPL please see the  [PDF Official Manual](http://www.godexintl.com/en/download/downloads/Download/1070)
 
