@@ -1,5 +1,5 @@
 # GodexPrinter
-A Cordova/Phonegap plugin driver for Godex bluetooth printers
+A Cordova/Phonegap plugin driver for GoDEX bluetooth printers
 
 ##Usage
 You can send data in EZPL Godex Programming Language:
@@ -44,7 +44,7 @@ var printer = cordova.plugins.GodexPrinter;
 cordova plugin add https://github.com/jmmateos/godexprinter.git
 ```
 
-##EZPL - Godex Programming Language
+##EZPL - GoDEX Programming Language
 For more information about EZPL please see the  [PDF Official Manual](http://www.godexintl.com/en/download/downloads/Download/1070)
 
 ##Android SDK 
