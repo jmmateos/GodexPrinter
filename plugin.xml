@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0"
+    id="cordova-plugin-godex-printer"  version="0.0.1">
+
+	<engines>
+	<engine name="cordova" version=">=3.5.0" />
+	</engines>
+
+	<name>GodexPrinter</name>
+	<description>A Cordova/Phonegap driver for Godex printers</description>
+
+	<js-module src="www/GodexPrinter.js" name="GodexPrinter">
+		<clobbers target="cordova.plugins.GodexPrinter" />
+	</js-module>
+
+	<platform name="android">
+		<config-file target="res/xml/config.xml" parent="/*">
+			<feature name="GodexPrinter">
+				<param name="android-package" value="es.jmmateos.plugins.GodexPrinter.GodexPrinter" />
+				<param name="onload" value="true" />
+			</feature>
+		</config-file>
+
+		<source-file src="src/android/GodexPrinter.java" target-dir="src/es/jmmateos/plugins/GodexPrinter" />
+		<source-file src="lib/EZioAD.jar" target-dir="libs" />
+
+		<config-file target="AndroidManifest.xml" parent="/*">
+			<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+			<uses-permission android:name="android.permission.INTERNET"/>	
+			<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+			<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />	
+
+			<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+			<uses-permission android:name="android.permission.BLUETOOTH" />
+	   	</config-file>
+
+	</platform>
+
+</plugin>

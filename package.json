@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-godex-printer",
+  "version": "0.0.1",
+  "description": "A Cordova/Phonegap plugin driver for Godex printers",
+  "cordova": {
+    "id": "cordova-plugin-godex-printer",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "godex",
+    "printers",
+	"bluetooth"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.6.0"
+    }
+  ],
+  "author": "Jose Manuel Mateos",
+  "license": "MIT"
+}
