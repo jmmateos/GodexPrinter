@@ -46,3 +46,6 @@ cordova plugin add https://github.com/jmmateos/godexprinter.git
 
 ##EZPL - Godex Programming Language
 For more information about EZPL please see the  [PDF Official Manual](http://www.godexintl.com/en/download/downloads/Download/1070)
+
+##Android SDK 
+Android library for GoDEX printer control program developing on Android platform. (http://www.godexintl.com/en/download/downloads/Download/3070)
