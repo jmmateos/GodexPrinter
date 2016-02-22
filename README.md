@@ -7,7 +7,7 @@ You can send data in EZPL Godex Programming Language:
 ```
 var printer = cordova.plugins.GodexPrinter;
   printer.connectBT ('MX30',function () {
-    $scope.connBT = 'Conexion correcta.';
+    console.log('successful connection.');
     var sc = printer.sendCommand;
       sc('^Q100,0,0');
       sc('^W72');
